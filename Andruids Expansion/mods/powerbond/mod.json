@@ -1,0 +1,21 @@
+{
+	"name" : "Power Bond",
+	"description" : "This mod adds a new secondary skill, learnable by magic-class heroes, that boosts attack of creatures using supernatural energy in combat, such as monks, genies and unicorns. Such creatures no longer benefit from Archery Skill.",
+	"version" : "1.1",
+	"author" : "Andruids",
+	"contact" : "madaosoul@gmail.com",
+	"modType" : "Skills",
+
+	"creatures" : [
+		"config/powerbondCreatures.json"
+	],
+	"skills" : [
+		"config/powerbondSkill.json"
+	],
+	"spells" : [
+		"config/powerbondSpells.json"
+	],
+	"heroClasses" : [
+		"config/powerbondClasses.json"
+	]
+}

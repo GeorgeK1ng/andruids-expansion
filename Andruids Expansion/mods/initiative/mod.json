@@ -1,0 +1,16 @@
+{
+	"name" : "Battle Initiative",
+	"description" : "This mod adds a new secondary skill that makes creatures move quicker in battle, but their movement distance stays the same.",
+	"version" : "1.0",
+	"author" : "Andruids",
+	"contact" : "madaosoul@gmail.com",
+	"modType" : "Skills",
+
+	"skills" : [
+		"config/initiativeSkill.json"
+	],
+	"spells" : [
+		"config/initiativeSpells.json"
+	]
+///	"heroClasses" : [ "config/initiativeClasses.json" ]
+}

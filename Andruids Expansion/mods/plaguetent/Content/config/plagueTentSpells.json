@@ -1,0 +1,121 @@
+{
+	"plagueTentPlague":
+	{
+		"type": "ability", 
+		"targetType": "CREATURE",
+		"name": "Plague",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 1,
+		"power": 0,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{},
+ 
+		"flags" :
+		{
+			"negative": true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "normal"
+			}
+	}, 
+ 
+		"graphics":
+		{
+			"iconEffect": "plagueDiseaseEffect",
+			"iconImmune": "plagueDiseaseImmune"
+		},
+		
+		"animation":
+		{
+			"affect":["SP05_"]
+		},
+
+		"sounds":
+		{
+			"cast":"DISEASE"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"aiValue": 0,
+				"range": "0",
+				"targetModifier":
+				{
+					"smart": true
+				},				
+				"description": "{Plague}\n\nDebilitates the target.\n",
+	 
+				"cost": 0,
+				"power": 1,
+				"battleEffects" : {
+					"plague" : {
+						"type" : "core:timed",
+						"cumulative": true,
+						"bonus":
+						{
+							"attackDisease":
+						{
+						"val" : -2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"duration" : "N_TURNS"
+						},
+					"defenceDisease" : {
+						"val" : -2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "N_TURNS"
+						}
+					}
+				}
+				}
+			},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		}
+    },
+    
+	"core:poison" : {
+		"targetType": "CREATURE"
+    },
+    
+    
+	"plagueTentNoAttack" : 
+	{
+		"type": "ability",	"targetType" : "CREATURE",
+		"name" : "No Attack",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 1, "power": 1, "defaultGainChance": 0, 		
+		"gainChance":{},"counters": {},	
+		"graphics":	{"iconEffect": "plagueNoAttack"},
+		"animation":{},
+		"sounds": {},
+		"levels" : {
+			"base":{
+
+				"description": "{No Attack}\r\n\r\nIt's a siege machine, so it can't attack in melee, duh...",
+				"cost": 0, "power": 1, "aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"noAttack" : {
+                        "type" : "ADDITIONAL_ATTACK",
+                        "val": -99
+					}
+					}
+
+					},
+			"none":{},"basic":{},"advanced":{},"expert":{}
+		},
+		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {	}},		
+		"flags" : {
+			"indifferent": true,
+			"special": true
+		}
+	}
+}

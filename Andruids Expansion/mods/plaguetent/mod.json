@@ -1,0 +1,33 @@
+{
+	"name" : "Plague Tent",
+	"description" : "A new War Machine for Necropolis Faction and a new Hero who starts and specialises with it. The Plague Tent casts accumulating disease or poison at the target enemy. It only works on living creatures!",
+	"author": "Andruids, Trith",
+	"version" : "1.0",
+	"contact": "madaosoul@gmail.com",
+	"modType" : "Creatures",
+	"factions" :
+	[
+	"config/plagueTentNecropolis.json"
+	],
+        "creatures" :
+        [
+        "config/plagueTentCreature.json"
+        ],
+	"artifacts":
+        [              
+        "config/plagueTentArtifact.json"        
+        ],
+	"spells":
+        [              
+        "config/plagueTentSpells.json" 
+        ],
+        "heroes" :
+        [
+	"config/plagueTentHeroes.json"
+        ]
+//        "skills" :
+//        [
+//        "config/envenomSkill.json"
+//	]
+}
+

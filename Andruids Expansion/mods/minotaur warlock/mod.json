@@ -1,0 +1,27 @@
+{
+	"name" : "Minotaur Warlock",
+	"description" : "A mod that adds a new animation for Dungeon Warlocks who are Minotaurs.",
+	"author" : "Andruids, Trith, HoTa Team",
+	"contact" : "madaosoul@gmail.com",
+	"version" : "1.0",
+	"modType" : "Heroes",
+	"depends" :
+	[
+	],
+
+
+	"heroClasses" :
+	[
+		"MinoWarlockClass.json"
+	],
+	"heroes" :
+	[
+		"MinoWarlockHeroes.json"	
+//		"NewMinoWarlock.json"		
+	]
+//	"spells" :
+//	[
+//		"someOPminospell"		
+//	]
+
+}

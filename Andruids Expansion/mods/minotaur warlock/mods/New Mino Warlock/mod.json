@@ -1,0 +1,22 @@
+{
+	"name" : "Sullivan, the Minotaur Warlock",
+	"description" : "A mod that adds a new hero.",
+	"author" : "Andruids",
+	"contact" : "madaosoul@gmail.com",
+	"version" : "1.0",
+	"modType" : "Heroes",
+	"depends" :
+	[
+		"andruids expansion.powerbond", 
+		"andruids expansion.minotaur warlock"
+	],
+	"heroes" :
+	[
+		"SullivanMinoWarlock.json"		
+	]
+//	"spells" :
+//	[
+//		"someOPminospell"		
+//	]
+
+}

@@ -1,0 +1,26 @@
+{
+	"author" : "andruids, fred79, don_ko, Wog Team",
+	"contact" : "madaosoul@gmail.com",
+	"description" : "New creature bank. 'Dead Dragon Utopia' def was taken from fred's object pack, 'Blood Dragon' def was made by don_kommandore and 'Dracolich' by Wog Team.",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Map Object",
+	"name" : "Damned Utopia",
+	"version" : "1.0",
+	
+	"changelog" :
+    {
+		"1.0"   : [ "Initial release" ]
+    },
+	
+	"creatures" :
+	[
+		"config/damnedDracolich",
+		"config/damnedBlooddragon"
+	],
+
+	"objects" :
+    [ 
+		"config/damnedUtopia"
+    ]	
+}

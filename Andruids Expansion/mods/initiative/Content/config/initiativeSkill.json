@@ -1,0 +1,57 @@
+{
+	"initiative" : {
+		"name" : "Initiative",
+		"gainChance" : {
+			"might" : 3,
+			"magic" : 1
+		},
+		"base" : {
+			"effects" : {
+				"battleInitiative" : {
+					"type" : "ENCHANTED",
+					"subtype" : "spell.battleInitiative"
+				}
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "initiativeSmallBasic.png",
+				"medium" : "initiativeMediumBasic.png",
+				"large" : "initiativeLargeBasic.png"
+			},
+			"description" : "{Basic Initiative}\n\nSpeed of creatures in hero army is increased by 10% (but not movement).",
+			//but their movement is reduced by x?
+			"effects" : {
+				"battleInitiative" : {
+					"val" : 1
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "initiativeSmallAdvanced.png",
+				"medium" : "initiativeMediumAdvanced.png",
+				"large" : "initiativeLargeAdvanced.png"
+			},
+			"description" : "{Advanced Initiative}\n\nSpeed of creatures in hero army is increased by 20% (but not movement).",
+			"effects" : {
+				"battleInitiative" : {
+					"val" : 2
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "initiativeSmallExpert.png",
+				"medium" : "initiativeMediumExpert.png",
+				"large" : "initiativeLargeExpert.png"
+			},
+			"description" : "{Expert Initiative}\n\nSpeed of creatures in hero army is increased by 30% (but not movement).",
+			"effects" : {
+				"battleInitiative" : {
+					"val" : 3
+				}
+			}
+		}
+	}
+}
