@@ -7,8 +7,8 @@
 	"modType" : "Heroes",
 	"depends" :
 	[
-		"andruids expansion.powerbond", 
-		"andruids expansion.minotaur warlock"
+		"andruids-expansion.powerbond", 
+		"andruids-expansion.minotaur warlock"
 	],
 	"heroes" :
 	[

@@ -60,7 +60,7 @@
 	"specialty" : {
     "bonuses" : {
       "powerbond" : {
-        "subtype" : "andruids expansion.powerbond:skill.powerbond",
+        "subtype" : "andruids-expansion.powerbond:skill.powerbond",
         "type" : "SECONDARY_SKILL_PREMY",
         "updater" : "TIMES_HERO_LEVEL",
         "val" : 5,
