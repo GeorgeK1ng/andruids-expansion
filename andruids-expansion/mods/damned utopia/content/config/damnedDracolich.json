@@ -53,8 +53,7 @@
 			{
 				"walk" : 1.00,
 				"idle" : 10.00,
-				"attack" : 1.00,
-				"flight" : 1.00
+				"attack" : 1.00
 			}
 		},
 		"shots" : 4,
@@ -80,8 +79,10 @@
 			},
 			"descreaseMorale" :
 			{
-				"type" : "MORALE",
-				"effectRange" : "ONLY_ENEMY_ARMY",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"type" : "MORALE", 
 				"val" : -1,
 				"stacking" : "Undead Dragons"
 			},
@@ -108,7 +109,9 @@
 			},
 			"king1" :
 			{
-				"type" : "KING1"
+				"type" : "KING",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
 			}
 		}	
 

@@ -60,11 +60,16 @@
 	"specialty" : {
     "bonuses" : {
       "powerbond" : {
-        "subtype" : "andruids-expansion.powerbond:skill.powerbond",
-        "type" : "SECONDARY_SKILL_PREMY",
-        "updater" : "TIMES_HERO_LEVEL",
-        "val" : 5,
-        "valueType" : "PERCENT_TO_BASE"
+		"type" : "PRIMARY_SKILL",
+		"subtype" : "primSkill.attack",
+		"valueType" : "PERCENT_TO_TARGET_TYPE",
+		"targetSourceType" : "SECONDARY_SKILL",
+		"val" : 5,
+		"limiters": [ "anyOf",	{	
+			"type":"HAS_ANOTHER_BONUS_LIMITER", 
+			"parameters": [ "SPELL_LIKE_ATTACK" ] }	
+		],
+        "updater" : "TIMES_HERO_LEVEL"
       }
     }
   }
