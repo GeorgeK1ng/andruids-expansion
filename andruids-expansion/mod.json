@@ -3,7 +3,7 @@
 	"description" : "Various modifications expanding Heroes III mechanics and elements. New creatures, skills, spells, objects and mechanics.",
 	"author" : "Andruids, M&M Community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "0.8.1",
+	"version" : "0.8.2",
 	"modType" : "Expansion",
 	"compatibility" :
 	{
@@ -17,6 +17,7 @@
 	},
 	"changelog" :
     {
+		"0.8.2"   : [ "Fixed broken filepath to chinese translation" ],
 		"0.8.1"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"0.8.0"   : [ "Update to vcmi-1.2" ],
 		"0.7.6"   : [ "Small fixes" ],
