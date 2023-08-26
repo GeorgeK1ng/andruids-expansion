@@ -9,7 +9,7 @@
 			"effects" : {
 				"attack" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primSkill.attack",
+					"subtype" : "primarySkill.attack",
 					"valueType" : "PERCENT_TO_BASE",
 					"limiters": [ "anyOf",	{	
 						"type":"HAS_ANOTHER_BONUS_LIMITER", 
