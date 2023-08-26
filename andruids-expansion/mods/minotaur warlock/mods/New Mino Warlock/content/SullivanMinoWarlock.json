@@ -61,7 +61,7 @@
     "bonuses" : {
       "powerbond" : {
 		"type" : "PRIMARY_SKILL",
-		"subtype" : "primSkill.attack",
+		"subtype" : "primarySkill.attack",
 		"valueType" : "PERCENT_TO_TARGET_TYPE",
 		"targetSourceType" : "SECONDARY_SKILL",
 		"val" : 5,
