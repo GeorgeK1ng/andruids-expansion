@@ -3,20 +3,22 @@
 	"description" : "Various modifications expanding Heroes III mechanics and elements. New creatures, skills, spells, objects and mechanics.",
 	"author" : "Andruids, M&M Community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "0.8.2",
+	"version" : "0.8.3",
 	"modType" : "Expansion",
 	"compatibility" :
 	{
-		"min" : "1.2.0"
+		"min" : "1.4.0"
 	},
 	"chinese" : {
 		"name" : "Andruids 扩展模块",
+		"description" : "Andruids 扩展模块",
 		"translations" : [
 			"translation/andruids-expansion/chinese.json"
 		]
 	},
 	"changelog" :
     {
+		"0.8.3"   : [ "Update to vcmi-1.4 format" ],
 		"0.8.2"   : [ "Fixed broken filepath to chinese translation" ],
 		"0.8.1"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"0.8.0"   : [ "Update to vcmi-1.2" ],
