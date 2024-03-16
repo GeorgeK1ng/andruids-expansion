@@ -10,8 +10,8 @@
 		"min" : "1.4.0"
 	},
 	"chinese" : {
-		"name" : "Andruids 扩展模块",
-		"description" : "Andruids 扩展模块",
+		"name" : "扩展模组（Andruids Expansion）",
+		"description" : "修改并扩展了《英雄无敌III》的机制和元素，并添加了新的生物、技能、魔法、宝物和机制。",
 		"translations" : [
 			"translation/andruids-expansion/chinese.json"
 		]
