@@ -3,7 +3,7 @@
 	"description" : "Various modifications expanding Heroes III mechanics and elements. New creatures, skills, spells, objects and mechanics.",
 	"author" : "Andruids, M&M Community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "0.8.4",
+	"version" : "0.8.5",
 	"modType" : "Expansion",
 	"compatibility" :
 	{
@@ -16,8 +16,16 @@
 			"translation/andruids-expansion/chinese.json"
 		]
 	},
+	"russian" : {
+		"name" : "Andruids Expansion",
+		"description" : "Мод на существ",
+		"translations" : [
+			"translation/andruids-expansion/russian.json"
+		]
+	},
 	"changelog" :
     {
+		"0.8.5"   : [ "Russian translation by Anton Sergeew" ],
 		"0.8.4"   : [ "Updated chinese translation" ],
 		"0.8.3"   : [ "Update to vcmi-1.4 format" ],
 		"0.8.2"   : [ "Fixed broken filepath to chinese translation" ],
