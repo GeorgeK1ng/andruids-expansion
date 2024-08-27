@@ -18,7 +18,7 @@
 	},
 	"russian" : {
 		"name" : "Andruids Expansion",
-		"description" : "Мод на существ",
+		"description" : "Различные модификации, расширяющие механику и элементы Heroes III. Новые существа, навыки, заклинания, предметы и механики.",
 		"translations" : [
 			"translation/andruids-expansion/russian.json"
 		]
