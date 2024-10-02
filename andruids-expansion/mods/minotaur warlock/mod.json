@@ -8,20 +8,12 @@
 	"depends" :
 	[
 	],
-
-
 	"heroClasses" :
 	[
 		"MinoWarlockClass.json"
 	],
 	"heroes" :
 	[
-		"MinoWarlockHeroes.json"	
-//		"NewMinoWarlock.json"		
-	]
-//	"spells" :
-//	[
-//		"someOPminospell"		
-//	]
+		"MinoWarlockHeroes.json"
 
 }

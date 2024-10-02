@@ -6,10 +6,10 @@
 	"contact": "madaosoul@gmail.com",
 	"modType" : "Creatures",
 	"factions" :
-	[
-	"config/plagueTentNecropolis.json"
-	],
-        "creatures" :
+		[
+		"config/plagueTentNecropolis.json"
+		],
+      "creatures" :
         [
         "config/plagueTentCreature.json"
         ],
@@ -21,13 +21,9 @@
         [              
         "config/plagueTentSpells.json" 
         ],
-        "heroes" :
+    "heroes" :
         [
-	"config/plagueTentHeroes.json"
+		"config/plagueTentHeroes.json"
         ]
-//        "skills" :
-//        [
-//        "config/envenomSkill.json"
-//	]
 }
 

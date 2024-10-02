@@ -12,5 +12,4 @@
 	"spells" : [
 		"config/initiativeSpells.json"
 	]
-///	"heroClasses" : [ "config/initiativeClasses.json" ]
 }
