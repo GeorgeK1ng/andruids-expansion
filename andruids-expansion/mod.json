@@ -3,7 +3,7 @@
 	"description" : "Various modifications expanding Heroes III mechanics and elements. New creatures, skills, spells, objects and mechanics.",
 	"author" : "Andruids, M&M Community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "0.8.6",
+	"version" : "0.8.7",
 	"modType" : "Expansion",
 	"compatibility" :
 	{
@@ -23,8 +23,16 @@
 			"translation/andruids-expansion/russian.json"
 		]
 	},
+	"polish" : {
+		"name" : "Dodatek Andruidsa",
+		"description" : "Zbiór różnych mini-modów rozszerzajacych oryginalne mechaniki i elementy gry. Nowe stworzenia, zdolność, zaklęcia, obiekty i mechaniki.",
+		"translations" : [
+			"translation/andruids-expansion/polish.json"
+		]
+	},
 	"changelog" :
     {
+		"0.8.7"   : [ "Polish translation by FallainBlack" ],
 		"0.8.6"   : [ "Better compatibility management" ],
 		"0.8.5"   : [ "Russian translation by Anton Sergeew" ],
 		"0.8.4"   : [ "Updated chinese translation" ],
