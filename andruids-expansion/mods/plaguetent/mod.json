@@ -7,7 +7,7 @@
 	"modType" : "Creatures",
 	"czech" : {
 		"name": "Morový stan",
-		"description": "Nový bojový stroj Mový stan pro Nekropolis. Přidává také nového hrdinu, který se na něj specializuje. Morový stan zasahuje vybraného nepřítele postupující nemocí nebo jedem. Funguje pouze na živé bytosti!",
+		"description": "Nový bojový stroj Morový stan pro Nekropolis. Přidává také nového hrdinu, který se na něj specializuje. Morový stan zasahuje vybraného nepřítele postupující nemocí nebo jedem. Funguje pouze na živé bytosti!",
 		"translations" : [
 			"translation/plaguetent/czech.json"
 		]
