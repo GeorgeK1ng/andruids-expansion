@@ -5,7 +5,10 @@
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
 	"modType" : "Skills",
-
+	"czech" : {
+		"name" : "Energetické pouto",
+		"description" : "Tato modifikace přidává novou dovednost, kterou se mohou naučit hrdinové zaměření na magii. Zvyšuje útok jednotek využívajících nadpřirozenou energii v boji, jako jsou mniši, džinové a jednorožci. Tyto jednotky již nemají prospěch z dovednosti Střelba."
+	},
 	"creatures" : [
 		"config/powerbondCreatures.json"
 	],

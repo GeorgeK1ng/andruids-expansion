@@ -1,5 +1,5 @@
 {
-	"plagueTentCreature":
+	"plagueTent":
 	{
 		"name" :
 		{
@@ -74,15 +74,6 @@
 			{
 				"type" : "SIEGE_WEAPON"
 			}
-//			"automatic" : {
-//				"subtype" : "creature.plagueTentCreature",
-//				"type" : "MANUAL_CONTROL",
-//				"val" : 0,
-//				"valueType" : "BASE_NUMBER",				
-//				"propagator" : "HERO"
-//			}
-
 		}
 	}
 }
-

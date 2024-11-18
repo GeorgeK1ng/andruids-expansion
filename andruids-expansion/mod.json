@@ -3,7 +3,7 @@
 	"description" : "Various modifications expanding Heroes III mechanics and elements. New creatures, skills, spells, objects and mechanics.",
 	"author" : "Andruids, M&M Community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "0.8.7",
+	"version" : "0.8.8",
 	"modType" : "Expansion",
 	"compatibility" :
 	{
@@ -14,6 +14,13 @@
 		"description" : "修改并扩展了《英雄无敌III》的机制和元素，并添加了新的生物、技能、魔法、宝物和机制。",
 		"translations" : [
 			"translation/andruids-expansion/chinese.json"
+		]
+	},
+	"czech" : {
+		"name": "Andruidovo rozšíření",
+		"description": "Modifikace, která rozšiřuje mechaniky a prvky Heroes 3. Přidává nové bytosti, dovednosti, kouzla, artefakty a další herní možnosti.",
+		"translations" : [
+			"translation/andruids-expansion/czech.json"
 		]
 	},
 	"russian" : {
@@ -32,6 +39,7 @@
 	},
 	"changelog" :
     {
+		"0.8.8"   : [ "Czech translation by George King" ],
 		"0.8.7"   : [ "Polish translation by FallainBlack" ],
 		"0.8.6"   : [ "Better compatibility management" ],
 		"0.8.5"   : [ "Russian translation by Anton Sergeew" ],

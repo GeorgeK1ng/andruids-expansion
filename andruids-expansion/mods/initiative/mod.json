@@ -5,7 +5,10 @@
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
 	"modType" : "Skills",
-
+	"czech" : {
+		"name": "Iniciativa",
+		"description": "Nová sekundární schopnost, která zrychluje pohyb bojovníků v boji, ale jejich dosah pohybu zůstává stejný."
+	},
 	"skills" : [
 		"config/initiativeSkill.json"
 	],

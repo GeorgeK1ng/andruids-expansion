@@ -8,6 +8,10 @@
 	"depends" :
 	[
 	],
+	"czech" : {
+		"name": "Minotauří čaroděj",
+		"description": "Modifikace, která přidává novou animaci pro Minotauří čaroděje z Kobky."
+	},
 	"heroClasses" :
 	[
 		"MinoWarlockClass.json"
