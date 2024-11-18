@@ -9,10 +9,13 @@
 	"version" : "1.0",
 	
 	"changelog" :
-    {
+    	{
 		"1.0"   : [ "Initial release" ]
-    },
-	
+    	},
+	"czech" : {
+		"name": "Prokletá utopie",
+		"description": "Nový objekt s odměnou bráněný Krvavými draky a Drakolichy. Vzhled objektu byl převzat z balíčku objektů od Freda, Krvavého draka vytvořil don_kommandore a Drakolicha Wog Team."	
+	},
 	"creatures" :
 	[
 		"config/damnedDracolich",

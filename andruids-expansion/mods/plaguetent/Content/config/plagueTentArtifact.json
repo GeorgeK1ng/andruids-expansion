@@ -1,8 +1,8 @@
 {
-	"plagueTentArtifact":
+	"plagueTent":
         {
 	"type" : ["HERO"],
-	"warMachine":"plagueTentCreature",
+	"warMachine":"plagueTent",
         "class": "SPECIAL",
         "value": 1500,
         "slot":"MACH3",
