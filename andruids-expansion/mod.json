@@ -18,7 +18,7 @@
 	},
 	"czech" : {
 		"name": "Andruidovo rozšíření",
-		"description": "Modifikace, která rozšiřuje mechaniky a prvky Heroes III. Přidává nové bytosti, dovednosti, kouzla, artefakty a další herní možnosti.",
+		"description": "Modifikace, která rozšiřuje mechaniky a prvky Heroes 3. Přidává nové bytosti, dovednosti, kouzla, artefakty a další herní možnosti.",
 		"translations" : [
 			"translation/andruids-expansion/czech.json"
 		]
