@@ -3,7 +3,7 @@
 	"description" : "Various modifications expanding Heroes III mechanics and elements. New creatures, skills, spells, objects and mechanics.",
 	"author" : "Andruids, M&M Community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "0.8.8",
+	"version" : "0.8.9",
 	"modType" : "Expansion",
 	"compatibility" :
 	{
@@ -39,7 +39,8 @@
 	},
 	"changelog" :
     {
-		"0.8.8"   : [ "Czech translation by George King" ],
+		"0.8.9"   : [ "Czech translation by George King" ],
+		"0.8.8"   : [ "Updated chinese translation by LeoAllenHan", "New commander for Minotaur Warlocks"  ],
 		"0.8.7"   : [ "Polish translation by FallainBlack" ],
 		"0.8.6"   : [ "Better compatibility management" ],
 		"0.8.5"   : [ "Russian translation by Anton Sergeew" ],
