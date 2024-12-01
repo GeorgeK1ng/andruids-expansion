@@ -21,8 +21,8 @@
 		{
 			"animation" : "CMEDUQ.def",
 			"map" : "AVWMEDX0.def",
-			"iconSmall" : "CPRS077D.bmp",
-			"iconLarge" : "CPRL077D.bmp",
+			"iconSmall" : "CPrSm079.png",
+			"iconLarge" : "CPrL079.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
