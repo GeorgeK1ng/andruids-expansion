@@ -19,5 +19,9 @@
 	"heroes" :
 	[
 		"MinoWarlockHeroes.json"
+	],
+	"creatures" :
+	[
+        "MinoWarlockCommander.json"
 	]
 }
