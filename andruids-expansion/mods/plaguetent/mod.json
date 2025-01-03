@@ -12,6 +12,14 @@
 			"translation/plaguetent/czech.json"
 		]
 	},
+	
+	"polish" : {
+		"name" : "Namiot Zarazy",
+		"description" : "Nowa machina wojenna dla frakcji Nekropolii i nowy bohater, który zaczyna i specjalizuje się w jej obsłudze. Namiot Plagi rzuca na wroga kumulującą się chorobę lub truciznę. Działa tylko na żywe stworzenia!",
+		"translations" : [
+			"translation/plaguetent/polish.json"
+		]
+	},
 	"factions" :
 		[
 		"config/plagueTentNecropolis.json"
