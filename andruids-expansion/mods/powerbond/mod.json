@@ -5,6 +5,10 @@
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
 	"modType" : "Skills",
+    "chinese" : {
+		"name" : "增幅术",
+    "description" : "这个模组添加一个只能由魔法英雄学习的新辅助技能，这个技能增加在战斗中使用超自然力量攻击的生物的攻击力，例如僧侣，神怪和独角兽。这些生物不再收到箭术增益。"
+	},
 	"czech" : {
 		"name" : "Magické pouto",
 		"description" : "Tato modifikace přidává novou dovednost, kterou se mohou naučit hrdinové zaměření na magii. Zvyšuje útok jednotek využívajících nadpřirozenou energii v boji, jako jsou mniši, džinové a jednorožci. Tyto jednotky již nemají prospěch z dovednosti Střelba."
