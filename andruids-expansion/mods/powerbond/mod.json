@@ -1,28 +1,28 @@
 {
 	"name" : "Power Bond",
-	"description" : "This mod adds a new secondary skill, learnable by magic-class heroes, that boosts attack of creatures using supernatural energy in combat, such as monks, genies and unicorns. Such creatures no longer benefit from Archery Skill.",
-	"version" : "1.1",
+	"description" : "This mod adds a new secondary skill, learnable only by magic-class heroes, that lets their troops use supernatural energy in melee combat and gives +1 cast to their spellcasters. Low-tier creatures benefit from the former bonus the most. Additionally, artifacts that boost this skill further can be found and equipped by the creatures themselves.",
+	"version" : "2.0",
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
 	"modType" : "Skills",
-    "chinese" : {
-		"name" : "增幅术",
-    "description" : "这个模组添加一个只能由魔法英雄学习的新辅助技能，这个技能增加在战斗中使用超自然力量攻击的生物的攻击力，例如僧侣，神怪和独角兽。这些生物不再收到箭术增益。"
-	},
-	"czech" : {
-		"name" : "Magické pouto",
-		"description" : "Tato modifikace přidává novou dovednost, kterou se mohou naučit hrdinové zaměření na magii. Zvyšuje útok jednotek využívajících nadpřirozenou energii v boji, jako jsou mniši, džinové a jednorožci. Tyto jednotky již nemají prospěch z dovednosti Střelba."
-	},
-	"creatures" : [
-		"config/powerbondCreatures.json"
-	],
+
 	"skills" : [
-		"config/powerbondSkill.json"
+		"config/newpb/powerbondSkill.json"
 	],
 	"spells" : [
-		"config/powerbondSpells.json"
+		"config/newpb/powerbondSpells.json"
 	],
-	"heroClasses" : [
-		"config/powerbondClasses.json"
-	]
+	
+	"artifacts" :
+	[
+		"config/newpb/powerbondArts.json"
+	],
+	
+	"settings":
+	{
+		"modules":
+		{
+			"stackArtifact": true
+		}
+	}
 }
