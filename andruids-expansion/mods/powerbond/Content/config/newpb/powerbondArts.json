@@ -1,0 +1,98 @@
+{		
+	"bonerGreen":
+	{
+		"bonuses" : [
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"addInfo" : [0,2],
+				"subtype" : "spell.newpowerbondFist",
+				"val" : 10
+			},
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.newpowerbondFist",
+				"val" : 2,
+				"stacking" : "powerbound value"
+			}
+		],
+		"type" : ["CREATURE"],
+		"class" : "TREASURE",
+		"slot" : "MISC",
+		"value" : 1500,
+		"graphics" : { 
+			"image" : "newpb/bone1",
+			"large" : "newpb/bone1camp", 
+			"map" : "newpb/bone1Map"
+		},
+		"text" : {
+			"description" : "{#2d9726|Lesser Powerbone}\r\n\r\nStack equipped with this curio has 10% chance to deal 2 damage (per creature) after each melee attack.\r\n\r\n{#787878|Magic that accumulates in the bones of powerbound servants can still be harnessed long after they have drawn their last breath.}",
+			"event" : "You pick up a small bone wrapped in green cloth. Upon closer inspection, it turns out to be a useful trinket. Give it to one stack of your troops.",
+			"name" : "Lesser Powerbone"
+		}
+	},
+
+	"bonerRed":
+	{
+		"bonuses" : [
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"addInfo" : [0,2],
+				"subtype" : "spell.newpowerbondFist",
+				"val" : 20
+			},
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.newpowerbondFist",
+				"val" : 2,
+				"stacking" : "powerbound value"
+			}
+		],
+		"type" : ["CREATURE"],
+		"class" : "TREASURE",
+		"slot" : "MISC",
+		"value" : 3000,
+		"graphics" : { 
+			"image" : "newpb/bone2",
+			"large" : "newpb/bone2camp", 
+			"map" : "newpb/bone2Map"
+		},
+		"text" : {
+			"description" : "{#c32c2c|Greater Powerbone}\r\n\r\nStack equipped with this curio has 20% chance to deal 2 damage (per creature) after each melee attack.\r\n\r\n{#787878|Magic that accumulates in the bones of powerbound servants can still be harnessed long after they have drawn their last breath.}",
+			"event" : "You pick up a bone wrapped in red cloth. Upon closer inspection, it turns out to be a useful trinket. Give it to one stack of your troops.",
+			"name" : "Greater Powerbone"
+		}
+	},
+
+	"bonerPurple":
+	{
+		"bonuses" : [
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"addInfo" : [0,2],
+				"subtype" : "spell.newpowerbondFist",
+				"val" : 30
+			},
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.newpowerbondFist",
+				"val" : 2,
+				"stacking" : "powerbound value"
+			}
+		],
+		"type" : ["CREATURE"],
+		"class" : "MINOR",
+		"slot" : "MISC",
+		"value" : 4500,
+		"graphics" : { 
+			"image" : "newpb/bone3",
+			"large" : "newpb/bone3camp", 
+			"map" : "newpb/bone3Map"
+		},
+		"text" : {
+//			"description" : "{#8052ad|Hallowed Powerbone}\r\n\r\nStack equipped with this curio has 30% chance to deal 2 damage (per creature) after each melee attack.\r\n\r\n{#787878|Magic coursing through powerbound creatures slowly accumulates in one of their bones. It can still be harnessed long after their last breath.}",
+			"description" : "{#8052ad|Hallowed Powerbone}\r\n\r\nStack equipped with this curio has 30% chance to deal 2 damage (per creature) after each melee attack.\r\n\r\n{#787878|Magic that accumulates in the bones of powerbound servants can still be harnessed long after they have drawn their last breath.}",
+			"event" : "You pick up a large bone wrapped in ornamental purple cloth. Upon closer inspection, it turns out to be a useful trinket. Give it to one stack of your troops.",
+			"name" : "Hallowed Powerbone"
+		}
+	}
+}
