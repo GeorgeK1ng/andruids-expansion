@@ -12,7 +12,7 @@
  
       "specialty" :
       {
-        "description" : "{Powerbond}\r\n\r\nReceives a 5% per level bonus to Powerbond skill.",
+        "description" : "{Powerbond}\r\n\r\nPower unleashed by his powerbound creatures deals 3 damage instead of 2.",
         "tooltip" : "Secondary Skill bonus: Powerbond",
         "name" : "Powerbond"
       }
@@ -59,17 +59,12 @@
     
 	"specialty" : {
     "bonuses" : {
-      "powerbond" : {
-		"type" : "PRIMARY_SKILL",
-		"subtype" : "primarySkill.attack",
-		"valueType" : "PERCENT_TO_TARGET_TYPE",
-		"targetSourceType" : "SECONDARY_SKILL",
-		"val" : 5,
-		"limiters": [ "anyOf",	{	
-			"type":"HAS_ANOTHER_BONUS_LIMITER", 
-			"parameters": [ "SPELL_LIKE_ATTACK" ] }	
-		],
-        "updater" : "TIMES_HERO_LEVEL"
+
+      "attackpower" : {
+        "type" : "SPECIFIC_SPELL_POWER",
+        "subtype" : "spell.newpowerbondFist",
+        "val" : 1,
+        "valueType" : "ADDITIVE_VALUE"
       }
     }
   }
