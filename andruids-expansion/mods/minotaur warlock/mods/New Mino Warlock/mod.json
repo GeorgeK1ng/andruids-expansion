@@ -1,9 +1,9 @@
 {
 	"name" : "Sullivan, the Minotaur Warlock",
 	"description" : "A mod that adds a new hero.",
-	"author" : "Andruids",
+	"author" : "Andruids, Kurek",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "1.0",
+	"version" : "2.0",
 	"modType" : "Compatibility",
 	"depends" :
 	[
