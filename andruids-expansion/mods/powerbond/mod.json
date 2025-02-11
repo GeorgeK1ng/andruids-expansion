@@ -1,7 +1,7 @@
 {
 	"name" : "Power Bond",
-	"description" : "This mod adds a new secondary skill, learnable only by magic-class heroes, that lets their troops use supernatural energy in melee combat and gives +1 cast to their spellcasters. Low-tier creatures benefit from the former bonus the most. Additionally, artifacts that boost this skill further can be found and equipped by the creatures themselves.",
-	"version" : "2.0",
+	"description" : "This mod adds a new secondary skill, learnable only by magic-class heroes, that lets their troops use supernatural energy in melee combat and gives +1 cast to their spellcasters. Low-tier creatures benefit from the former bonus the most. Additionally, artifacts that boost this skill further can be found or bought from the Bonepeddler, and equipped by the creatures themselves. ",
+	"version" : "2.1",
 	"author" : "Andruids",
 	"contact" : "madaosoul@gmail.com",
 	"modType" : "Skills",
@@ -18,11 +18,22 @@
 		"config/newpb/powerbondArts.json"
 	],
 	
+	"objects" :
+	[
+		"config/newpb/powerbondObjs.json"
+	],
+	
 	"settings":
 	{
 		"modules":
 		{
 			"stackArtifact": true
 		}
-	}
+	},
+	"changelog" :
+    {
+		"2.1"   : [ "added the bonepeddler object" ],
+		"2.0"   : [ "total rework" ],
+		"1.0"   : [ "Initial release" ]
+    }
 }
